@@ -27,10 +27,10 @@
 
     case 'htmlacademy.ru':
       document.addEventListener('keydown', (event) => {
-        saveHotKeyHandler(event, '.js--server-check')
+        saveHotKeyHandler(event, '.js--server-check');
       });
       break;
-  
+
     default:
       break;
   }
@@ -38,8 +38,8 @@
 
 /**
  * Handler for saving hotkeys
- * @param {KeyboardEvent} event 
- * @param {string} selectorToClick 
+ * @param {KeyboardEvent} event
+ * @param {string} selectorToClick
  */
 function saveHotKeyHandler(event, selectorToClick) {
   if ((event.metaKey || event.ctrlKey) && event.key === 's') {
