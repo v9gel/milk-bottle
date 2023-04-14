@@ -14,7 +14,7 @@ Small improvements to the IDE of some online courses
 
 ## Supported online courses ide
 
-### [practicum.yandex.ru](https://practicumyandex.ru/)
+### [practicum.yandex](https://practicumyandex.ru/)
 
 - Interception of the save hotkey [CMD+S/CTRL+S] and sending the code for verification
 
